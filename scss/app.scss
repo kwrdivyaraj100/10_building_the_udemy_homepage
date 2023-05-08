@@ -28,5 +28,21 @@ body{
 
 }
 
+.cart-content{
+    position: relative;
+              &:hover .content {
+            display: block;
+            position: absolute;
+            right: 0;
+            padding: 1rem;
+            max-width: 400px;
+
+            
+          .button {
+            @include button($secondary)
+       } 
+  }
+  }
+
 
 
